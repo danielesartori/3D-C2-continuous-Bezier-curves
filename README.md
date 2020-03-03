@@ -1,7 +1,7 @@
 # 3D-C2-continuous-Bezier-curves
 Enforce C2 continuity and generate 3D Bézier curves
 
-Given 2 sets of control points (possibly representing a 3D path), this code calculate the position of the additional control points used to enforce C2 continuity and plots the 3D Bézier curves defined by them.
+Given 2 sets of control points (possibly representing a 3D path), this code calculates the position of the additional control points used to enforce C2 continuity and plots the 3D Bézier curves defined by them.
 
 The repository includes:
 
@@ -11,3 +11,8 @@ The repository includes:
 
 - bezier_curve_3D.m: given a set of control points, it calculates the 3D Bézier curves defined by it
 
+This code was partially used in the paper:
+
+D. Sartori, D. Zou, W. Yu, An efficient approach to near-optimal 3D trajectory design in cluttered environments for multirotor UAVs, 2019 IEEE 15th International Conference on Automation Science and Engineering (CASE), Vancouver, August 2019
+
+Available at: https://ieeexplore.ieee.org/abstract/document/8842980/
